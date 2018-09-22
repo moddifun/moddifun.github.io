@@ -1,0 +1,50 @@
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+	background-image: url(http://blog.mcafeeinstitute.com/wp-content/uploads/2015/03/success.jpg);
+	background-position: center;
+	background-size: cover;
+    height:100%;
+    background
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family:'Pacifico', cursive;
+	position: fixed;
+	top: 200px;
+	background-color:rgba(0, 0, 0, 0.5);
+	width:60%;
+	padding: 10px 0px;
+	cursor: pointer;
+}
+
+h1:hover {
+	color: black;
+	transform: scale(1.2);
+}
+
+.btn-dark {
+	position: fixed;
+	bottom: 15%;
+	width:17%;
+	height: 12%;
+	background-color: rgb(32.2, 32.2, 32.2);
+	left:63%;
+	border: none;
+	font-size: 12px;
+
+}
+
+.btn-dark:hover {
+	transform: scale(2);
+	background-image: url(https://cdn.britannica.com/94/146394-050-1299F4B7.jpg);
+	background-size: cover;
+	border: 5px;
+	border-style:solid;
+	border-color: black;
+}
